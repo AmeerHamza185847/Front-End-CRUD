@@ -16,7 +16,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
-const API_URL = 'http://localhost:8000/api/users';
+const API_URL = 'https://backend-crud-delta.vercel.app/api/users';
 
 function App() {
   const [userData, setUserData] = useState([])
